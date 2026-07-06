@@ -1,0 +1,67 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments and local tooling
+.venv/
+venv/
+env/
+.env
+.idea/
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+run.log
+tensorboard_logdir.txt
+runs/
+wandb/
+
+# Training outputs, checkpoints, and generated arrays
+output/
+checkpoints*/
+*.pth
+*.pt
+*.ckpt
+*.npy
+*.npz
+*.mat
+
+# Local datasets. Keep dataset loaders and documented small examples only.
+dataset/*.csv
+dataset/*.npy
+dataset/*.npz
+dataset/*.mat
+
+# Paper build artifacts and local submission kits
+AAAI_AuthorKit27/
+tex/
+paper_figures/
+paper_figures/generated_pretty/
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+
+# Third-party source snapshots used for reference only
+TokenFlow/
+
+# Local planning notes and paper-only scratch files
+PLAN_*.md
+MODEL_ARCH_*.md
+STAGE1_*.md
+STAGE2_*.md
+ANONYMOUS_SUPPLEMENTARY_README.md
+result*.txt
+read.txt
+
+# OS files
+.DS_Store
+Thumbs.db
